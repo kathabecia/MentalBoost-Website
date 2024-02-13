@@ -10,7 +10,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Inter","Open Sans", sans-serif;
   color: #444444;
 }
 
@@ -227,7 +227,7 @@ h6 {
   font-size: 14px;
   text-transform: none;
   font-weight: 500;
-  color: #0c3c53;
+  color: #279778;
 }
 
 .navbar .dropdown ul a i {
@@ -302,7 +302,7 @@ h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(40, 58, 90, 0.9);
+  background: #279778;
   transition: 0.3s;
   z-index: 999;
 }
@@ -331,7 +331,7 @@ h6 {
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #37517e;
+  color: #279778;
 }
 
 .navbar-mobile a:hover,
@@ -343,7 +343,7 @@ h6 {
 .navbar-mobile .getstarted,
 .navbar-mobile .getstarted:focus {
   margin: 15px;
-  color: #37517e;
+  color: #279778;
 }
 
 .navbar-mobile .dropdown ul {
@@ -373,7 +373,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #47b2e4;
+  color: #3bd8ab;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -387,7 +387,7 @@ h6 {
 #hero {
   width: 100%;
   height: 80vh;
-  background: #37517e;
+  background: #279778;
 }
 
 #hero .container {
@@ -419,11 +419,11 @@ h6 {
   transition: 0.5s;
   margin: 10px 0 0 0;
   color: #fff;
-  background: #47b2e4;
+  background: #38d6a9;
 }
 
 #hero .btn-get-started:hover {
-  background: #209dd8;
+  background: #38d7aa;
 }
 
 #hero .btn-watch-video {
@@ -445,7 +445,7 @@ h6 {
 }
 
 #hero .btn-watch-video:hover i {
-  color: #47b2e4;
+  color: #3adcae;
 }
 
 #hero .animated {
@@ -533,7 +533,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #37517e;
+  color: #279778;
 }
 
 .section-title h2::before {
@@ -553,7 +553,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #47b2e4;
+  background: #3adcae;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -616,7 +616,7 @@ section {
   left: 0;
   top: 2px;
   font-size: 20px;
-  color: #47b2e4;
+  color: #3adcae;
   line-height: 1;
 }
 
@@ -634,14 +634,14 @@ section {
   border-radius: 4px;
   transition: 0.3s;
   line-height: 1;
-  color: #47b2e4;
+  color: #3adcae;
   animation-delay: 0.8s;
   margin-top: 6px;
-  border: 2px solid #47b2e4;
+  border: 2px solid #3adcae;
 }
 
 .about .content .btn-learn-more:hover {
-  background: #47b2e4;
+  background: #3adcae;
   color: #fff;
   text-decoration: none;
 }
@@ -649,6 +649,10 @@ section {
 /*--------------------------------------------------------------
 # Why Us
 --------------------------------------------------------------*/
+.why-us {
+  width: 100%;
+  height: 100%;
+}
 .why-us .content {
   padding: 60px 100px 0 100px;
 }
@@ -656,7 +660,7 @@ section {
 .why-us .content h3 {
   font-weight: 400;
   font-size: 34px;
-  color: #37517e;
+  color: #279778;
 }
 
 .why-us .content h4 {
@@ -669,6 +673,25 @@ section {
   font-size: 15px;
   color: #848484;
 }
+
+.why-us .content button a {
+  color: black;
+}
+
+.why-us .content button {
+  border: 2px solid #16d19c;
+}
+
+.why-us .content button:hover {
+  background: #16d19c;
+  /* tarungon pa */
+  color: #ffffff !important;
+}
+
+/* .why-us .content button:hover {
+  color: #ffffff !important;
+} */
+
 
 .why-us .img {
   background-size: contain;
@@ -708,7 +731,7 @@ section {
 }
 
 .why-us .accordion-list span {
-  color: #47b2e4;
+  color: #3adcae;
   font-weight: 600;
   font-size: 18px;
   padding-right: 10px;
@@ -735,7 +758,7 @@ section {
 }
 
 .why-us .accordion-list a.collapsed:hover {
-  color: #47b2e4;
+  color: #3adcae;
 }
 
 .why-us .accordion-list a.collapsed .icon-show {
@@ -781,7 +804,7 @@ section {
 .skills .content h3 {
   font-weight: 700;
   font-size: 32px;
-  color: #37517e;
+  color: #279778;
   font-family: "Poppins", sans-serif;
 }
 
@@ -797,7 +820,7 @@ section {
 .skills .content ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #47b2e4;
+  color: #3adcae;
 }
 
 .skills .content p:last-child {
@@ -818,7 +841,7 @@ section {
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: #37517e;
+  color: #279778;
 }
 
 .skills .progress .skill .val {
@@ -853,7 +876,7 @@ section {
 }
 
 .services .icon-box .icon i {
-  color: #47b2e4;
+  color: #3adcae;
   font-size: 36px;
   transition: 0.3s;
 }
@@ -865,7 +888,7 @@ section {
 }
 
 .services .icon-box h4 a {
-  color: #37517e;
+  color: #279778;
   transition: ease-in-out 0.3s;
 }
 
@@ -880,7 +903,7 @@ section {
 }
 
 .services .icon-box:hover h4 a {
-  color: #47b2e4;
+  color: #3adcae;
 }
 
 /*--------------------------------------------------------------
@@ -919,8 +942,8 @@ section {
 }
 
 .cta .cta-btn:hover {
-  background: #47b2e4;
-  border: 2px solid #47b2e4;
+  background: #3adcae;
+  border: 2px solid #3adcae;
 }
 
 @media (max-width: 1024px) {
@@ -961,7 +984,7 @@ section {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  background: #47b2e4;
+  background: #3adcae;
   color: #fff;
 }
 
@@ -1015,7 +1038,7 @@ section {
 
 .portfolio .portfolio-item .portfolio-info .preview-link:hover,
 .portfolio .portfolio-item .portfolio-info .details-link:hover {
-  color: #47b2e4;
+  color: #3adcae;
 }
 
 .portfolio .portfolio-item .portfolio-info .details-link {
@@ -1051,11 +1074,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #47b2e4;
+  border: 1px solid #3adcae;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #47b2e4;
+  background-color: #3adcae;
 }
 
 .portfolio-details .portfolio-info {
@@ -1130,7 +1153,7 @@ section {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 20px;
-  color: #37517e;
+  color: #279778;
 }
 
 .team .member span {
@@ -1176,13 +1199,13 @@ section {
 }
 
 .team .member .social a i {
-  color: #37517e;
+  color: #279778;
   font-size: 16px;
   margin: 0 2px;
 }
 
 .team .member .social a:hover {
-  background: #47b2e4;
+  background: #3adcae;
 }
 
 .team .member .social a:hover i {
@@ -1213,12 +1236,12 @@ section {
   font-weight: 500;
   margin-bottom: 15px;
   font-size: 20px;
-  color: #37517e;
+  color: #279778;
 }
 
 .pricing h4 {
   font-size: 48px;
-  color: #37517e;
+  color: #279778;
   font-weight: 400;
   font-family: "Jost", sans-serif;
   margin-bottom: 25px;
@@ -1229,7 +1252,7 @@ section {
 }
 
 .pricing h4 span {
-  color: #47b2e4;
+  color: #3adcae;
   font-size: 18px;
   display: block;
 }
@@ -1271,26 +1294,26 @@ section {
   display: inline-block;
   padding: 12px 35px;
   border-radius: 50px;
-  color: #47b2e4;
+  color: #3adcae;
   transition: none;
   font-size: 16px;
   font-weight: 500;
   font-family: "Jost", sans-serif;
   transition: 0.3s;
-  border: 1px solid #47b2e4;
+  border: 1px solid #3adcae;
 }
 
 .pricing .buy-btn:hover {
-  background: #47b2e4;
+  background: #3adcae;
   color: #fff;
 }
 
 .pricing .featured {
-  border-top-color: #47b2e4;
+  border-top-color: #3adcae;
 }
 
 .pricing .featured .buy-btn {
-  background: #47b2e4;
+  background: #3adcae;
   color: #fff;
 }
 
@@ -1359,7 +1382,7 @@ section {
   position: absolute;
   right: 0;
   left: 20px;
-  color: #47b2e4;
+  color: #3adcae;
 }
 
 .faq .faq-list .icon-show,
@@ -1380,12 +1403,12 @@ section {
 }
 
 .faq .faq-list a.collapsed {
-  color: #37517e;
+  color: #279778;
   transition: 0.3s;
 }
 
 .faq .faq-list a.collapsed:hover {
-  color: #47b2e4;
+  color: #3adcae;
 }
 
 .faq .faq-list a.collapsed .icon-show {
@@ -1406,8 +1429,8 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact .info {
-  border-top: 3px solid #47b2e4;
-  border-bottom: 3px solid #47b2e4;
+  border-top: 3px solid #3adcae;
+  border-bottom: 3px solid #3adcae;
   padding: 30px;
   background: #fff;
   width: 100%;
@@ -1416,7 +1439,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #47b2e4;
+  color: #3adcae;
   float: left;
   width: 44px;
   height: 44px;
@@ -1433,7 +1456,7 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #37517e;
+  color: #279778;
 }
 
 .contact .info p {
@@ -1467,21 +1490,21 @@ section {
 }
 
 .contact .info .social-links a:hover {
-  background: #47b2e4;
+  background: #3adcae;
   color: #fff;
 }
 
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #47b2e4;
+  background: #3adcae;
   color: #fff;
 }
 
 .contact .php-email-form {
   width: 100%;
-  border-top: 3px solid #47b2e4;
-  border-bottom: 3px solid #47b2e4;
+  border-top: 3px solid #3adcae;
+  border-bottom: 3px solid #3adcae;
   padding: 30px;
   background: #fff;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
@@ -1558,7 +1581,7 @@ section {
 
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
-  border-color: #47b2e4;
+  border-color: #3adcae;
 }
 
 .contact .php-email-form input {
@@ -1570,7 +1593,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #47b2e4;
+  background: #3adcae;
   border: 0;
   padding: 12px 34px;
   color: #fff;
@@ -1611,7 +1634,7 @@ section {
 .breadcrumbs h2 {
   font-size: 28px;
   font-weight: 600;
-  color: #37517e;
+  color: #279778;
 }
 
 .breadcrumbs ol {
@@ -1656,7 +1679,7 @@ section {
   padding: 0;
   line-height: 1;
   font-weight: 600;
-  color: #37517e;
+  color: #279778;
 }
 
 #footer .footer-newsletter form {
@@ -1684,7 +1707,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #47b2e4;
+  background: #3adcae;
   color: #fff;
   transition: 0.3s;
   border-radius: 50px;
@@ -1711,7 +1734,7 @@ section {
   line-height: 1;
   text-transform: uppercase;
   font-weight: 600;
-  color: #37517e;
+  color: #279778;
 }
 
 #footer .footer-top .footer-contact p {
@@ -1725,7 +1748,7 @@ section {
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #37517e;
+  color: #279778;
   position: relative;
   padding-bottom: 12px;
 }
@@ -1742,7 +1765,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #47b2e4;
+  color: #3adcae;
   font-size: 18px;
   line-height: 1;
 }
@@ -1766,13 +1789,13 @@ section {
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #47b2e4;
+  color: #3adcae;
 }
 
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #47b2e4;
+  background: #3adcae;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
